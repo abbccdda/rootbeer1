@@ -1,0 +1,7 @@
+install:
+  - mvn install --quiet -DskipTests=true -Dgpg.skip=true
+
+test_script:
+  - mvn test
+
+build: off
